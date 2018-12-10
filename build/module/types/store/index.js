@@ -1,0 +1,10 @@
+import { combineReducers, createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import operation from './operation';
+import nodes from './nodes';
+const middlewares = [thunk];
+const reducers = combineReducers({
+    operation, nodes
+});
+export default createStore(reducers, applyMiddleware(...middlewares));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9zcmMvdHlwZXMvc3RvcmUvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFDLGVBQWUsRUFBRSxXQUFXLEVBQUUsZUFBZSxFQUFFLE1BQU0sT0FBTyxDQUFBO0FBQ3BFLE9BQU8sS0FBSyxNQUFNLGFBQWEsQ0FBQTtBQUMvQixPQUFPLFNBQVMsTUFBTSxhQUFhLENBQUE7QUFDbkMsT0FBTyxLQUFLLE1BQU0sU0FBUyxDQUFBO0FBQzNCLE1BQU0sV0FBVyxHQUFHLENBQUMsS0FBSyxDQUFDLENBQUE7QUFFM0IsTUFBTSxRQUFRLEdBQUcsZUFBZSxDQUFDO0lBQzdCLFNBQVMsRUFBQyxLQUFLO0NBQ2xCLENBQUMsQ0FBQTtBQUVGLGVBQWUsV0FBVyxDQUFDLFFBQVEsRUFBQyxlQUFlLENBQUMsR0FBRyxXQUFXLENBQUMsQ0FBQyxDQUFBIn0=
