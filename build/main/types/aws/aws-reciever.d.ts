@@ -1,6 +1,6 @@
 import AWSIOT from './aws-iot';
 export default class AWSReciever {
-    awsIot: AWSIOT;
+    private awsIot;
     constructor(iot: AWSIOT);
     private init;
 }
