@@ -2,7 +2,6 @@ import moment from 'moment';
 import Logger from './logger';
 declare class SensorLogger extends Logger {
     static instance: SensorLogger;
-    private currentTime;
     static getInstance(): SensorLogger;
     constructor();
     createTable(): void;

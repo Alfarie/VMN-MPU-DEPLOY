@@ -9,6 +9,8 @@ declare class VmnLogger extends Logger {
     getLog(start: moment.Moment, end: moment.Moment, interval: Number): Promise<any>;
     createTable(): void;
     private vmnLoggingRoutine;
+    private totalSupply;
+    private currentSupply;
 }
 declare const _default: VmnLogger;
 export default _default;
