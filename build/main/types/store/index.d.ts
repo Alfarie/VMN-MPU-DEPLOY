@@ -8,6 +8,7 @@ declare const _default: import("redux").Store<{
         }[];
         datetime: string;
     };
+    preset: any;
 }, import("redux").AnyAction> & {
     dispatch: {};
 };
