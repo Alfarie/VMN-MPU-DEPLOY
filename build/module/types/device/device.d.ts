@@ -1,14 +1,14 @@
 import { TransmitionManager, DeviceDataSG } from './device-communication';
 declare class DeviceManager {
-    static instance: DeviceManager;
+    private static instance;
     private serialPort;
     private transmiter;
     private reciever;
-    constructor(portName?: String);
+    constructor(portName?: string);
     static getInstance(): DeviceManager;
     getTransmiter(): TransmitionManager;
     getDeviceData(): DeviceDataSG;
-    isDeviceAvailable(): Boolean;
+    isDeviceAvailable(): boolean;
 }
 declare const _default: DeviceManager;
 export default _default;

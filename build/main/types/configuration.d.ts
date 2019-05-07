@@ -1,7 +1,7 @@
 declare class ConfigModel {
-    portName: String;
+    portName: string;
     loggerTime: number;
-    interface: String;
+    interface: string;
     wifi: Boolean;
 }
 declare class Configuration {

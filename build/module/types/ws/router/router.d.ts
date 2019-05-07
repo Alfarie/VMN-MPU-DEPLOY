@@ -1,6 +1,6 @@
 export declare class Router {
-    protected name: String;
+    protected name: string;
     protected router: any;
     getRouter(): any;
-    getName(): String;
+    getName(): string;
 }

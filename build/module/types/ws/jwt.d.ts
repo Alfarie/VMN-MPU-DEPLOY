@@ -1,8 +1,8 @@
 export declare class JWTHandler {
-    secret: String;
+    secret: string;
     expiresIn: Number;
     sign(payload: any): any;
     verify(tokenId: any): Promise<{}>;
-    setSecret(secret: String): void;
+    setSecret(secret: string): void;
     setExpiresIn(expiresIn: Number): void;
 }

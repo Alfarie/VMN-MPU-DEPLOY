@@ -4,10 +4,10 @@ export declare class SerialPortManager {
     private reciever;
     private portName;
     private isPortAvailable;
-    constructor(port: String);
+    constructor(port: string);
     getTransmiter(): any;
     getReciever(): any;
-    isAvailable(): Boolean;
+    isAvailable(): boolean;
     private onData;
     private onOpen;
     private onOpened;

@@ -3,7 +3,7 @@ declare class GetMac {
     static getInstance(): GetMac;
     mac: string;
     constructor();
-    getMac(iface: String): any;
+    getMac(iface: string): any;
 }
 declare const _default: GetMac;
 export default _default;

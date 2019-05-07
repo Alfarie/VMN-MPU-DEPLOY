@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = __importDefault(require("fs"));
 class ConfigModel {
     constructor() {
-        // public portName:String = "/dev/cu.usbmodem143301";
+        // public portName:string = "/dev/cu.usbmodem143301";
         this.portName = "/dev/cu.usbserial-DN02S59Z";
         this.loggerTime = 60000;
         this.interface = "en0";
