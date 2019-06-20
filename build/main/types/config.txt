@@ -1,0 +1,1 @@
+{"portName":"/dev/cu.usbserial-DN02S59Z","loggerTime":60000,"interface":"en0","wifi":false}
